@@ -8,7 +8,7 @@ Here are some snapshots of the Planorama Event Management Website:
 ![Image](https://github.com/user-attachments/assets/8709eef6-6882-44aa-9241-78d149a1302f)
 
 ### Contact Us Page
-![Contact Us](assets/contact.png)
+![Image](https://github.com/user-attachments/assets/055fb0f0-c77e-401d-a8bd-c192127da0cb)
 
 # Planorama Event Management Website
 
