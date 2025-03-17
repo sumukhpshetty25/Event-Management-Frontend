@@ -2,7 +2,7 @@
 Here are some snapshots of the Planorama Event Management Website:
 
 ### Homepage
-
+![Image](https://github.com/user-attachments/assets/fc7500b8-f425-4f88-acd1-bc4f0ad4f43b)
 
 ### Services Page
 ![Services](assets/services.png)
