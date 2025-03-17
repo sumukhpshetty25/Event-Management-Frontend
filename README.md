@@ -47,12 +47,3 @@ Planorama Event Management is a comprehensive platform designed to streamline ev
 - Click on gallery images and videos to view detailed event highlights.
 - Use the **Contact Us** section to reach out for inquiries or bookings.
 
-## Contact
-For inquiries, contact us via:
-- **Email:** [planoroma@gmail.com](mailto:planoroma@gmail.com)
-- **Phone:** +91 6465128259
-- **Location:** [Bangalore, India](https://www.google.com/maps/place/RNS+INSTITUTE+OF+TECHNOLOGY/)
-
-## Credits
-Developed by **Sumukh P Shetty** — CEO & Founder of Planorama Event Management Company.
-
