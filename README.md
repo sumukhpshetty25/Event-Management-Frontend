@@ -47,4 +47,3 @@ Planorama Event Management is a comprehensive platform designed to streamline ev
 - Click on gallery images and videos to view detailed event highlights.
 - Use the **Contact Us** section to reach out for inquiries or bookings.
 
-![Image](https://github.com/user-attachments/assets/4304793d-3f23-4070-9384-e9a645122f7a)
