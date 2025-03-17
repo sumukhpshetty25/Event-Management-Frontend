@@ -1,0 +1,267 @@
+@charset "ISO-8859-1";
+
+/* Global styles */
+body, h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url("background1.jpg");
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("background2.jpeg");
+    min-height: 400px;
+}
+
+/* Wide letter spacing */
+.w3-wide {
+    letter-spacing: 10px;
+}
+
+/* Hover opacity effect */
+.w3-hover-opacity {
+    cursor: pointer;
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s;
+}
+
+@-webkit-keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0;
+    }
+    to {
+        bottom: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0;
+    }
+    to {
+        bottom: 0px;
+        opacity: 1;
+    }
+}
+
+/* Hidden element */
+#myDiv {
+    display: none;
+    text-align: center;
+}
+
+/* Box sizing */
+* {
+    box-sizing: border-box;
+}
+
+/* Body font */
+body {
+    font-family: Verdana, sans-serif;
+}
+
+/* Slides not displayed */
+.mySlides {
+    display: none;
+}
+
+/* Image and vertical alignment */
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow */
+.slideshow-container {
+    position: relative;
+    margin: auto;
+}
+
+/* Caption style */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Numeric label */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Dot attributes */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/* Active dot */
+.active {
+    background-color: #717171;
+}
+
+/* Fade effect */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+/* Container positioning */
+.container {
+    position: relative;
+    width: 50%;
+}
+
+/* Image display */
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+/* Middle element style */
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Hover effect for image container */
+.w3-container:hover .image {
+    opacity: 0.75;
+}
+
+/* Pop-up text styling */
+.poptext {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+/* Column layout */
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+/* Clear floating elements */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Custom fonts */
+.font-lobster {
+    font-family: "Lobster", serif;
+}
+
+.font-satisfy {
+    font-family: 'Satisfy', cursive;
+}
+
+.font-courgette {
+    font-family: 'Courgette', cursive;
+}
+
+/* Disable parallax scrolling on smaller devices */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9 {
+        background-attachment: scroll;
+    }
+}
+
+/* Adjust text size on smaller screens */
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px;
+    }
+}
+
+/* Responsive layout for columns */
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+    }
+}
+
+/* Fix for image object fit */
+.w3-row-padding .w3-center .w3-col.m4 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.uniform-image {
+    width: 200px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
+    object-fit: cover; /* Ensures the image covers the specified dimensions */
+    border: 2px solid #ccc; /* Adds a border to the images */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds a shadow to the images */
+    transition: transform 0.3s; /* Adds a hover effect */
+}
+
+.uniform-image:hover {
+    transform: scale(1.05); /* Slightly enlarges the image on hover */
+}
