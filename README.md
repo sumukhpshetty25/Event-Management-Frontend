@@ -1,3 +1,15 @@
+## 🚀 Preview
+Here are some snapshots of the Planorama Event Management Website:
+
+### Homepage
+
+
+### Services Page
+![Services](assets/services.png)
+
+### Contact Us Page
+![Contact Us](assets/contact.png)
+
 # Planorama Event Management Website
 
 Planorama Event Management is a comprehensive platform designed to streamline event planning, management, and execution. Whether you're organizing a corporate gathering, a wedding, or a private party, Planorama offers a seamless experience with multiple features and services.
